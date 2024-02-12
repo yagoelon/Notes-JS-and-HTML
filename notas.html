@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANOTAÇÕES JAVASCPRIT</title>
+</head>
+
+<body>
+    <script>
+
+        //Utilizando o function; function VARIAVEL(){ FUNÇÃO QUE SERÁ FEITA}
+        function pulaLinha() {
+            document.write("<br>");
+        };
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //METODOS DE LOOPING
+
+        //Utilizando o for; for( DEFINIR VARIAVEL; DEFINIR QUANTIDADE DE LOOPING; DEFINIR CONTAGEM)
+        for (var linha = 1; linha <= 3; linha++) {
+        }
+
+        //Utilizando o WHILE;
+        var mutiplicador = 1;
+
+        while (multiplicador <= 10) {
+            mostra(7 * multiplicador);
+            multiplicador = multiplicador + 1
+        }
+
+        //VARIAVEL ++ é para somar a variável +1
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        //Math.random serve para trazer números aleatórios. deve-se colocar quantas casas quer *10 traz número 0-10, *100 0-100
+        Math.random() * 10
+
+        //Serve para arredondar o número gerado a partir do Math.random()
+        Math.round(Math.random() * n)
+
+        //Serve para o user digitar uma informação e depois utilizar ela
+        prompt
+        var totalDeEventos = parseInt(prompt("Informe o total de eventos"));
+
+        //Converter um texto em número
+        parseInt()
+        var numero = parseInt("12.13");
+        //O valor de numero será 12.
+
+        //Ler números inteiros ou decimais fornecido pela função
+        parseFloat
+        var numero = parseFloat("12.13");
+        //O valor de numero será 12.13.
+
+        //Alert emite um alerta na tela do user
+        alert();
+
+        //focar o input onde o user irá digitar
+        input.focus();
+
+        //input.value traz o input do HTML que o user escreveu como também podemos setar algo antes do user escrever
+        input.value == numero
+        input.value = "";
+
+        //      var numero = Math.round(Math.random() * 10);
+        //      var input = document.querySelector("input");
+        //      input.focus();
+        //      
+        //      function verifica() {
+        //          if (input.value == numero) {
+        //              alert("ACERTOU!");
+        //          } else {
+        //              alert("ERROU");
+        //          }
+        //          input.value = "";
+        //          input.focus();
+        //      }
+        //      
+        //      var button = document.querySelector("button");
+        //      button.onclick = verifica;
+
+        //Array é utilizados para guardar vários valores, eles devem estar entre colchetes e separados por vírgulas. Uma boa prática é colocar a variável no PLURAL.
+        //O array começa a contar a partir o do 0.Isso deve ser levado em consideração para utilizar um looping para fazer a verificação de todos os valores guardados. Exemplo no cógigo abaixo
+        var coisas = ["Gisele", 12, true];
+        numeros.length // Serve para utilizar no looping para não ter que mudar a quantidade de verificação a cada adição dentro do Array
+
+        //var numeros = [5, 7, 10, 2, 3];
+        //var input = document.querySelector("input");
+        //
+        //function verifica() {
+        //    var acertou = false;
+        //    for (var posicao = 0; posicao < numeros.length; posicao++) {
+        //        if (input.value == numeros[posicao]) {
+        //            alert("Você ACERTOU!");
+        //            acertou = true;
+        //            break;
+        //        }
+        //    }
+        //    if (acertou == false) {
+        //        alert("Você ERROU!");
+        //    }
+        //}
+
+    </script>
+</body>
+
+</html>
